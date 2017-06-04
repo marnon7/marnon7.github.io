@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.myoungs.cn/about/index.html</loc>
+    
+    <lastmod>2017-06-04T14:13:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
     
-    <lastmod>2017-06-04T13:51:28.000Z</lastmod>
+    <lastmod>2017-06-04T14:11:18.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.myoungs.cn/404.html</loc>
     
-    <lastmod>2017-06-04T08:44:28.000Z</lastmod>
+    <lastmod>2017-06-04T14:10:32.000Z</lastmod>
     
   </url>
   

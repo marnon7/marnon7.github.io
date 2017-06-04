@@ -3,15 +3,20 @@
 
 
     
+    
   <url>
     <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
-    <lastmod>2017-06-04T13:51:28.000Z</lastmod>
+    <lastmod>2017-06-04T14:11:18.000Z</lastmod>
     <data>
         <display>
         <title>让 Homebrew 走代理更新</title>
         <pubTime>2017-06-04T13:45:30.000Z</pubTime>
         
-        <tag>brew, proxy, OS X</tag>
+        <tag>brew</tag>
+         
+        <tag>proxy</tag>
+         
+        <tag>OS X</tag>
          
          
            

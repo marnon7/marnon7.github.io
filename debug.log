@@ -1082,3 +1082,180 @@
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:01:02.183Z","v":0}
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering post: \u001b[35m2017/06/04/brewproxy/index.html\u001b[39m","time":"2017-06-04T14:01:05.550Z","v":0}
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering post: \u001b[35m2017/06/04/brewproxy/index.html\u001b[39m","time":"2017-06-04T14:01:58.763Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m404.md\u001b[39m","time":"2017-06-04T14:10:33.280Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:33.405Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:33.406Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:33.406Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:33.406Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:33.406Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:33.406Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:33.409Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:48.813Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:48.948Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:48.948Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:48.948Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:48.948Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:48.948Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:48.948Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:48.950Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:48.993Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:49.113Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:49.113Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:49.113Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:49.113Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:49.113Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:49.113Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:49.114Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:54.439Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:54.538Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:54.655Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:54.655Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:54.655Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:54.655Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:54.655Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:54.655Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:54.656Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:54.730Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:54.851Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:54.891Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:55.007Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:55.007Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:55.008Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:55.008Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:55.008Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:55.008Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:55.008Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:10:55.050Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:10:55.166Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:10:55.166Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:10:55.166Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:10:55.166Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:10:55.166Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:10:55.166Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:10:55.167Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:11:12.152Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:11:12.273Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:11:12.273Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:11:12.273Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:11:12.273Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:11:12.273Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:11:12.273Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:11:12.276Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:11:12.290Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:11:12.413Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:11:12.413Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:11:12.413Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:11:12.413Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:11:12.413Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:11:12.413Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:11:12.415Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:11:12.434Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:11:12.557Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:11:12.557Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:11:12.557Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:11:12.557Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:11:12.558Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:11:12.558Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:11:12.559Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:11:12.574Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:11:12.712Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:11:12.712Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:11:12.712Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:11:12.712Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:11:12.712Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:11:12.712Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:11:12.713Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:11:18.842Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_posts/brewproxy.md\u001b[39m","time":"2017-06-04T14:11:18.945Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:11:18.957Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:11:18.957Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:11:18.957Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:11:18.958Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:11:18.958Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:11:18.958Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:11:18.959Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:11:19.058Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:11:19.058Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:11:19.058Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:11:19.059Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:11:19.059Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:11:19.059Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:11:19.060Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T14:12:12.648Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T14:12:12.648Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:12:12.767Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:12:12.768Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:12:12.768Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:12:12.768Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:12:12.768Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:12:12.768Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:12:12.771Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T14:12:12.799Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T14:12:12.799Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:12:12.912Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:12:12.913Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:12:12.913Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:12:12.913Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:12:12.913Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:12:12.913Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:12:12.914Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T14:12:16.586Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T14:12:16.587Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T14:12:16.682Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T14:12:16.682Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:12:16.800Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:12:16.800Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:12:16.800Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:12:16.800Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:12:16.800Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:12:16.800Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:12:16.801Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T14:12:16.874Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T14:12:16.874Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:12:16.987Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:12:16.987Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:12:16.987Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:12:16.987Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:12:16.987Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:12:16.987Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:12:16.988Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T14:12:17.075Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T14:12:17.075Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:12:17.188Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:12:17.188Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:12:17.188Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:12:17.188Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:12:17.188Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:12:17.188Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:12:17.189Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2017-06-04T14:13:22.328Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:13:22.446Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:13:22.446Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:13:22.446Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:13:22.446Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:13:22.446Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:13:22.446Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:13:22.447Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2017-06-04T14:13:23.218Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T14:13:23.336Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T14:13:23.336Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T14:13:23.336Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T14:13:23.336Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T14:13:23.336Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T14:13:23.336Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T14:13:23.337Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering post: \u001b[35m2017/06/04/brewproxy/index.html\u001b[39m","time":"2017-06-04T14:13:58.004Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2017-06-04T14:14:02.720Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering tag: \u001b[35mtags/proxy/index.html\u001b[39m","time":"2017-06-04T14:14:14.156Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-06-04T14:14:18.005Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-06-04T14:14:37.645Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering archive: \u001b[35marchives/index.html\u001b[39m","time":"2017-06-04T14:14:41.035Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2017-06-04T14:14:47.930Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering archive: \u001b[35marchives/index.html\u001b[39m","time":"2017-06-04T14:14:56.533Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":9858,"level":20,"msg":"Rendering page: \u001b[35m404.html\u001b[39m","time":"2017-06-04T14:15:00.716Z","v":0}
