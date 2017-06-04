@@ -1715,3 +1715,14 @@
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35msitemap\u001b[39m","time":"2017-06-04T15:21:30.868Z","v":0}
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T15:21:30.868Z","v":0}
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T15:21:30.869Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Theme config loaded.","time":"2017-06-04T15:28:11.182Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-06-04T15:28:11.182Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mbaidusitemap\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35msitemap\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T15:28:11.299Z","v":0}
