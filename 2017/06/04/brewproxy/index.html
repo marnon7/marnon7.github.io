@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="brew, proxy, OS X," />
 
 
 
@@ -92,17 +92,17 @@
 
 
 
-<meta name="description" content="码农[Programer] 嵌入式系统[Embedded System] 安德猴[AndroidDeveloper] 撸片子[Photographer]">
-<meta name="keywords" content="Programer,Android,Photographer,Marnon,Java,">
+<meta name="description" content="之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。 结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。  ——如果能让终端命令走代理就好了。  是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew">
+<meta name="keywords" content="brew, proxy, OS X">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hey budy">
-<meta property="og:url" content="http://yoursite.com/2014/09/11/Hey-budy/index.html">
+<meta property="og:title" content="让 Homebrew 走代理更新">
+<meta property="og:url" content="http://yoursite.com/2017/06/04/brewproxy/index.html">
 <meta property="og:site_name" content="Marnon&#39;s Blog">
-<meta property="og:description" content="码农[Programer] 嵌入式系统[Embedded System] 安德猴[AndroidDeveloper] 撸片子[Photographer]">
-<meta property="og:updated_time" content="2017-06-02T09:54:58.000Z">
+<meta property="og:description" content="之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。 结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。  ——如果能让终端命令走代理就好了。  是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew">
+<meta property="og:updated_time" content="2017-06-04T13:51:28.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hey budy">
-<meta name="twitter:description" content="码农[Programer] 嵌入式系统[Embedded System] 安德猴[AndroidDeveloper] 撸片子[Photographer]">
+<meta name="twitter:title" content="让 Homebrew 走代理更新">
+<meta name="twitter:description" content="之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。 结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。  ——如果能让终端命令走代理就好了。  是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew">
 
 
 
@@ -130,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2014/09/11/Hey-budy/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/06/04/brewproxy/"/>
 
 
 
 
 
-  <title>Hey budy | Marnon's Blog</title>
+  <title>让 Homebrew 走代理更新 | Marnon's Blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -296,7 +296,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2014/09/11/Hey-budy/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/04/brewproxy/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Marnon Young">
@@ -313,7 +313,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Hey budy</h2>
+          <h2 class="post-title" itemprop="name headline">让 Homebrew 走代理更新</h2>
         
 
         <div class="post-meta">
@@ -325,8 +325,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-09-11T09:59:01+08:00">
-                2014-09-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-04T21:45:30+08:00">
+                2017-06-04
               </time>
             
 
@@ -360,7 +360,22 @@
       
 
       
-        
+        <p>之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。</p>
+<p>结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。</p>
+<blockquote>
+<p>——如果能让终端命令走代理就好了。</p>
+</blockquote>
+<p>是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew 是支持全局代理的，我们只需要在当前环境当中加入代理配置即可。</p>
+<p>在终端中输入如下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">export ALL_PROXY=socks5://127.0.0.1:1080</div></pre></td></tr></table></figure></p>
+<p>如果说你想要 brew 永久如此，我们就需要将环境变量写入终端的配置当中，这取决于你的终端，如果是默认的 bash，则写入  ~/.bash_profile ，如果是 zsh，则写在  ~/.zshrc  里。</p>
+<p>或者直接用如下语句来将命令直接导入到配置文件里，感谢 surveillance104 的提醒哦！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo export ALL_PROXY=socks5://127.0.0.1:1080 &gt;&gt; ~/.bash_profile</div></pre></td></tr></table></figure></p>
+<p>//如果是zsh就下边这个<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo export ALL_PROXY=socks5://127.0.0.1:1080 &gt;&gt; ~/.zsh_profile</div></pre></td></tr></table></figure></p>
+<p>这样，Homebrew 就能通过 shadowsocks 来更新了，速度嗖嗖的。：）</p>
+<blockquote>
+<p>注意<br>你应当注意，如果你使用了这条命令，可能大部分的终端命令都会使用代理了（ping不会的放心?）如果有些特别的命令总是直接失败，你应当首先想到可能是代理惹的祸；另外，brew不能通过代理来使用中国镜像源——原因你自己想：）</p>
+</blockquote>
+<p>转载自<a href="https://www.logcg.com/archives/1617.html" target="_blank" rel="external">落格博客</a></p>
+
       
     </div>
 
@@ -387,6 +402,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/brew-proxy-OS-X/" rel="tag"># brew, proxy, OS X</a>
+          
+        </div>
+      
 
       
         
@@ -396,15 +417,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/06/04/20170604post/" rel="next" title="20170604post">
+                <i class="fa fa-chevron-left"></i> 20170604post
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2014/09/11/this-is-text/" rel="prev" title="this is text">
-                this is text <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
