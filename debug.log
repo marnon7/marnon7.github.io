@@ -1726,3 +1726,25 @@
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35msitemap\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-04T15:28:11.297Z","v":0}
 {"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-04T15:28:11.299Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Processed: \u001b[35m_posts/Android-Applink.md\u001b[39m","time":"2017-06-05T01:26:07.029Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-05T01:26:07.172Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-05T01:26:07.172Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-05T01:26:07.172Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mbaidusitemap\u001b[39m","time":"2017-06-05T01:26:07.173Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-05T01:26:07.174Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-05T01:26:07.174Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35msitemap\u001b[39m","time":"2017-06-05T01:26:07.174Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-05T01:26:07.174Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-05T01:26:07.176Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Processed: \u001b[35m_posts/Android-Applink.md\u001b[39m","time":"2017-06-05T01:26:07.218Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-06-05T01:26:07.345Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mbaidusitemap\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35msitemap\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-06-05T01:26:07.346Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-06-05T01:26:07.347Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":30,"msg":"Farewell","time":"2017-06-05T01:56:54.239Z","v":0}
+{"name":"hexo","hostname":"mYoungsMBP.lan","pid":10275,"level":20,"msg":"Database saved","time":"2017-06-05T01:56:54.254Z","v":0}
