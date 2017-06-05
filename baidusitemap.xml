@@ -3,9 +3,12 @@
 
 
     
+    
+    
+    
   <url>
     <loc>http://blog.myoungs.cn/2017/06/05/linearlayoutweightSum/</loc>
-    <lastmod>2017-06-05T10:49:08.000Z</lastmod>
+    <lastmod>2017-06-05T10:59:37.000Z</lastmod>
     <data>
         <display>
         <title>LinearLayout之weightSum</title>
@@ -21,6 +24,9 @@
          
          
            
+             
+              <breadCrumb title="编程" url="http://blog.myoungs.cn/categories/programming/"/>
+          
         </display>
     </data>
     </url>
@@ -61,8 +67,6 @@
     </data>
     </url>
 
-    
-    
     
   <url>
     <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
