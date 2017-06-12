@@ -3,6 +3,104 @@
 
 
     
+  <url>
+    <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
+    <lastmod>2017-06-12T10:01:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>让 Homebrew 走代理更新</title>
+        <pubTime>2017-06-04T13:45:30.000Z</pubTime>
+        
+        <tag>brew</tag>
+         
+        <tag>proxy</tag>
+         
+        <tag>OS X</tag>
+         
+         
+           
+             
+              <breadCrumb title="效率" url="http://blog.myoungs.cn/categories/tips/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.myoungs.cn/2017/06/05/Android-Applink/</loc>
+    <lastmod>2017-06-12T10:01:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 6.0 Applink配置问题</title>
+        <pubTime>2017-06-05T01:26:06.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>Applink</tag>
+         
+        <tag>Development</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="http://blog.myoungs.cn/categories/coding/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/</loc>
+    <lastmod>2017-06-12T09:59:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 6.0之后 WIFI和蓝牙扫描问题</title>
+        <pubTime>2017-06-12T09:49:56.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>Android M</tag>
+         
+        <tag>Wi-Fi</tag>
+         
+        <tag>Bluetooth</tag>
+         
+        <tag>AndroidManifest</tag>
+         
+        <tag>dangerous permission</tag>
+         
+        <tag>WifiManager.getScanResults()</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程" url="http://blog.myoungs.cn/categories/coding/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.myoungs.cn/2014/09/11/Hey-budy/</loc>
+    <lastmod>2017-06-12T09:55:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hey budy</title>
+        <pubTime>2014-09-11T01:59:01.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="生活" url="http://blog.myoungs.cn/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
@@ -25,29 +123,8 @@
          
            
              
-              <breadCrumb title="编程" url="http://blog.myoungs.cn/categories/programming/"/>
+              <breadCrumb title="编程" url="http://blog.myoungs.cn/categories/coding/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.myoungs.cn/2017/06/05/Android-Applink/</loc>
-    <lastmod>2017-06-05T02:29:25.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android 6.0 Applink配置问题</title>
-        <pubTime>2017-06-05T01:26:06.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>Applink</tag>
-         
-        <tag>Development</tag>
-         
-         
-           
         </display>
     </data>
     </url>
@@ -68,27 +145,6 @@
     </url>
 
     
-  <url>
-    <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
-    <lastmod>2017-06-04T14:11:18.000Z</lastmod>
-    <data>
-        <display>
-        <title>让 Homebrew 走代理更新</title>
-        <pubTime>2017-06-04T13:45:30.000Z</pubTime>
-        
-        <tag>brew</tag>
-         
-        <tag>proxy</tag>
-         
-        <tag>OS X</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://blog.myoungs.cn/2017/06/02/hello-world/</loc>
@@ -97,21 +153,6 @@
         <display>
         <title>Hello World</title>
         <pubTime>2017-06-02T10:26:47.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.myoungs.cn/2014/09/11/Hey-budy/</loc>
-    <lastmod>2017-06-02T09:54:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hey budy</title>
-        <pubTime>2014-09-11T01:59:01.000Z</pubTime>
         
          
            

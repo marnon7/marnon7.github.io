@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Android,Android M,Wi-Fi,Bluetooth,AndroidManifest,dangerous permission,WifiManager.getScanResults()," />
 
 
 
@@ -90,16 +90,17 @@
 
 
 
-<meta name="description" content="码农[Programer] 嵌入式系统[Embedded System] 安德猴[AndroidDeveloper] 撸片子[Photographer]">
-<meta name="keywords" content="Programer,Android,Photographer,Marnon,Java,">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Marnon&#39;s Blog">
-<meta property="og:url" content="http://blog.myoungs.cn/archives/2017/06/index.html">
+<meta name="description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()  例如，通过BluetoothA">
+<meta name="keywords" content="Android,Android M,Wi-Fi,Bluetooth,AndroidManifest,dangerous permission,WifiManager.getScanResults()">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android 6.0之后 WIFI和蓝牙扫描问题">
+<meta property="og:url" content="http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/index.html">
 <meta property="og:site_name" content="Marnon&#39;s Blog">
-<meta property="og:description" content="码农[Programer] 嵌入式系统[Embedded System] 安德猴[AndroidDeveloper] 撸片子[Photographer]">
+<meta property="og:description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()  例如，通过BluetoothA">
+<meta property="og:updated_time" content="2017-06-12T09:59:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Marnon&#39;s Blog">
-<meta name="twitter:description" content="码农[Programer] 嵌入式系统[Embedded System] 安德猴[AndroidDeveloper] 撸片子[Photographer]">
+<meta name="twitter:title" content="Android 6.0之后 WIFI和蓝牙扫描问题">
+<meta name="twitter:description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()  例如，通过BluetoothA">
 
 
 
@@ -127,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://blog.myoungs.cn/archives/2017/06/"/>
+  <link rel="canonical" href="http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/"/>
 
 
 
 
 
-  <title>归档 | Marnon's Blog</title>
+  <title>Android 6.0之后 WIFI和蓝牙扫描问题 | Marnon's Blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -168,7 +169,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -272,251 +273,191 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 7 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/12/wifi-permission-Android-m/" itemprop="url">
-              
-                <span itemprop="name">Android 6.0之后 WIFI和蓝牙扫描问题</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-12T17:49:56+08:00"
-              content="2017-06-12" >
-          06-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/05/linearlayoutweightSum/" itemprop="url">
-              
-                <span itemprop="name">LinearLayout之weightSum</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-05T18:44:17+08:00"
-              content="2017-06-05" >
-          06-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/05/Android-Applink/" itemprop="url">
-              
-                <span itemprop="name">Android 6.0 Applink配置问题</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-05T09:26:06+08:00"
-              content="2017-06-05" >
-          06-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/04/brewproxy/" itemprop="url">
-              
-                <span itemprop="name">让 Homebrew 走代理更新</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-04T21:45:30+08:00"
-              content="2017-06-04" >
-          06-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/04/20170604post/" itemprop="url">
-              
-                <span itemprop="name">20170604</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-04T15:15:10+08:00"
-              content="2017-06-04" >
-          06-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/06/02/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-02T18:26:47+08:00"
-              content="2017-06-02" >
-          06-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Marnon Young">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Marnon's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Android 6.0之后 WIFI和蓝牙扫描问题</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-12T17:49:56+08:00">
+                2017-06-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/coding/" itemprop="url" rel="index">
+                    <span itemprop="name">编程</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。</p>
+<ol>
+<li>WifiManager.getScanResults()</li>
+<li>BluetoothDevice.ACTION_FOUND</li>
+<li>BluetoothLeScanner.startScan()</li>
+</ol>
+<p>例如，通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备，在Android 6.0之前只需要在AndroidManifest中声明BLUETOOTH和BLUETOOTH_ADMIN权限即可，从Android 6.0之后还需要在AndroidManifest中声明ACCESS_FINE_LOCATION 或者ACCESS_COARSE_LOCATION权限。由于这两个权限属于dangerous permission，所以还需要在运行时申请该权限，等用户授权后才可以通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备。如果没有在AndroidManifest中声明ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限，或者没有得到用户授权就调用BluetoothAdapter.startDiscovery()，那么定义的BroadcastReceiver在Android 6.0系统上中是不会收到任何消息的。</p>
+<blockquote>
+<p>参考：<br>1.<a href="https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id" target="_blank" rel="external">https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id</a><br>2.<a href="http://stackoverflow.com/questions/33052811/since-marshmallow-update-bluetooth-discovery-using-bluetoothadapter-getdefaultad" target="_blank" rel="external">http://stackoverflow.com/questions/33052811/since-marshmallow-update-bluetooth-discovery-using-bluetoothadapter-getdefaultad</a></p>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag"># Android</a>
+          
+            <a href="/tags/Android-M/" rel="tag"># Android M</a>
+          
+            <a href="/tags/Wi-Fi/" rel="tag"># Wi-Fi</a>
+          
+            <a href="/tags/Bluetooth/" rel="tag"># Bluetooth</a>
+          
+            <a href="/tags/AndroidManifest/" rel="tag"># AndroidManifest</a>
+          
+            <a href="/tags/dangerous-permission/" rel="tag"># dangerous permission</a>
+          
+            <a href="/tags/WifiManager-getScanResults/" rel="tag"># WifiManager.getScanResults()</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/06/05/linearlayoutweightSum/" rel="next" title="LinearLayout之weightSum">
+                <i class="fa fa-chevron-left"></i> LinearLayout之weightSum
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -524,6 +465,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -739,11 +684,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
 
 
   
