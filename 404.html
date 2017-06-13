@@ -79,6 +79,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="mYoungs' Blog" type="application/atom+xml" />
 
@@ -108,7 +110,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":true,"scrollpercent":false},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -417,11 +419,6 @@
       
 
       
-        <div class="back-to-top">
-          <i class="fa fa-arrow-up"></i>
-          
-        </div>
-      
 
     </div>
   </aside>
@@ -462,6 +459,11 @@
       </div>
     </footer>
 
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
   </div>
@@ -570,12 +572,19 @@
 
 
   
-
-
-
-
-
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "57b0207eb91949dabad84bed816ccc24",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
   
+
+
 
 
 
