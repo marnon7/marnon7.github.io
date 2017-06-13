@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mYoungs&#39; Blog</title>
+  <subtitle>I love, therefore I am.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.myoungs.cn/"/>
+  <updated>2017-06-12T09:59:24.000Z</updated>
+  <id>http://blog.myoungs.cn/</id>
+  
+  <author>
+    <name>Marnon Young</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 6.0之后 WIFI和蓝牙扫描问题</title>
+    <link href="http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/"/>
+    <id>http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/</id>
+    <published>2017-06-12T09:49:56.000Z</published>
+    <updated>2017-06-12T09:59:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。</p>
+<ol>
+<li>WifiManager.getScanResults()</li>
+<li>BluetoothDevice.ACTION_FOUND</li>
+<li>BluetoothLeScanner.startScan()</li>
+</ol>
+<p>例如，通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备，在Android 6.0之前只需要在AndroidManifest中声明BLUETOOTH和BLUETOOTH_ADMIN权限即可，从Android 6.0之后还需要在AndroidManifest中声明ACCESS_FINE_LOCATION 或者ACCESS_COARSE_LOCATION权限。由于这两个权限属于dangerous permission，所以还需要在运行时申请该权限，等用户授权后才可以通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备。如果没有在AndroidManifest中声明ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限，或者没有得到用户授权就调用BluetoothAdapter.startDiscovery()，那么定义的BroadcastReceiver在Android 6.0系统上中是不会收到任何消息的。</p>
+<blockquote>
+<p>参考：<br>1.<a href="https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id" target="_blank" rel="external">https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id</a><br>2.<a href="http://stackoverflow.com/questions/33052811/since-marshmallow-update-bluetooth-discovery-using-bluetoothadapter-getdefaultad" target="_blank" rel="external">http://stackoverflow.com/questions/33052811/since-marshmallow-update-bluetooth-discovery-using-bluetoothadapter-getdefaultad</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;WifiManager.getScanResults()&lt;/
+    
+    </summary>
+    
+      <category term="编程" scheme="http://blog.myoungs.cn/categories/coding/"/>
+    
+    
+      <category term="Android" scheme="http://blog.myoungs.cn/tags/Android/"/>
+    
+      <category term="Android M" scheme="http://blog.myoungs.cn/tags/Android-M/"/>
+    
+      <category term="Wi-Fi" scheme="http://blog.myoungs.cn/tags/Wi-Fi/"/>
+    
+      <category term="Bluetooth" scheme="http://blog.myoungs.cn/tags/Bluetooth/"/>
+    
+      <category term="AndroidManifest" scheme="http://blog.myoungs.cn/tags/AndroidManifest/"/>
+    
+      <category term="dangerous permission" scheme="http://blog.myoungs.cn/tags/dangerous-permission/"/>
+    
+      <category term="WifiManager.getScanResults()" scheme="http://blog.myoungs.cn/tags/WifiManager-getScanResults/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LinearLayout之weightSum</title>
+    <link href="http://blog.myoungs.cn/2017/06/05/linearlayoutweightSum/"/>
+    <id>http://blog.myoungs.cn/2017/06/05/linearlayoutweightSum/</id>
+    <published>2017-06-05T10:44:17.000Z</published>
+    <updated>2017-06-05T10:59:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天同事问我Android中的LinearLayout单个子View相对父View百分比设定的问题，发现了weightSum这个一直被我忽略的属性。很简单，没什么说的只是md一下。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;</div><div class="line">    xmlns:tools=&quot;http://schemas.android.com/tools&quot;</div><div class="line">    android:layout_width=&quot;match_parent&quot;</div><div class="line">    android:layout_height=&quot;match_parent&quot;</div><div class="line">    android:gravity=&quot;center&quot;</div><div class="line">    android:orientation=&quot;vertical&quot;</div><div class="line">    android:weightSum=&quot;2&quot;</div><div class="line">    tools:context=&quot;cn.myoungs.test.MainActivity&quot;&gt;</div><div class="line"></div><div class="line">    &lt;LinearLayout</div><div class="line">        android:layout_width=&quot;wrap_content&quot;</div><div class="line">        android:layout_height=&quot;0dp&quot;</div><div class="line">        android:layout_weight=&quot;1&quot;</div><div class="line">        android:background=&quot;#999&quot;</div><div class="line">        android:gravity=&quot;center&quot;</div><div class="line">        android:orientation=&quot;horizontal&quot;</div><div class="line">        android:weightSum=&quot;10&quot;&gt;</div><div class="line">        &lt;View</div><div class="line">            android:layout_width=&quot;0dp&quot;</div><div class="line">            android:layout_height=&quot;match_parent&quot;</div><div class="line">            android:layout_weight=&quot;4&quot;</div><div class="line">            android:background=&quot;@color/colorPrimary&quot; /&gt;</div><div class="line">    &lt;/LinearLayout&gt;</div><div class="line">&lt;/LinearLayout&gt;</div></pre></td></tr></table></figure></p>
+<p>另外在读文档的时候发现 gravity的属性也有很多有意思的设置，具体的就不写了，网上有很多关于这个的，Google一下就好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天同事问我Android中的LinearLayout单个子View相对父View百分比设定的问题，发现了weightSum这个一直被我忽略的属性。很简单，没什么说的只是md一下。&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;
+    
+    </summary>
+    
+      <category term="编程" scheme="http://blog.myoungs.cn/categories/coding/"/>
+    
+    
+      <category term="Android" scheme="http://blog.myoungs.cn/tags/Android/"/>
+    
+      <category term="LinearLayout" scheme="http://blog.myoungs.cn/tags/LinearLayout/"/>
+    
+      <category term="weightSum" scheme="http://blog.myoungs.cn/tags/weightSum/"/>
+    
+      <category term="Layout" scheme="http://blog.myoungs.cn/tags/Layout/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 6.0 Applink配置问题</title>
+    <link href="http://blog.myoungs.cn/2017/06/05/Android-Applink/"/>
+    <id>http://blog.myoungs.cn/2017/06/05/Android-Applink/</id>
+    <published>2017-06-05T01:26:06.000Z</published>
+    <updated>2017-06-12T10:01:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在尝试配置AppLink的时候遇到打开Applink出现chooser的问题  </p>
+<p>使用命令行检查<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">adb shell dumpsys package domain-preferred-apps</div></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">App verification status:</div><div class="line"></div><div class="line">Package: cn.myoungs.applinkstest</div><div class="line">Domains: myoungs.cn</div><div class="line">Status:  undefined</div></pre></td></tr></table></figure>
+<p>而正确的输出结果应该是<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">App linkages for user 0:</div><div class="line"></div><div class="line">  Package: com.google.android.googlequicksearchbox</div><div class="line">  Domains: assistant.google.com www.assistant.google.com</div><div class="line">  Status:  ask</div><div class="line"></div><div class="line">  Package: com.whatsapp</div><div class="line">  Domains: api.whatsapp.com v.whatsapp.com chat.whatsapp.com</div><div class="line">  Status:  always : 200000002</div><div class="line"></div><div class="line">  Package: me.ele</div><div class="line">  Domains: www.ele.me</div><div class="line">  Status:  always : 200000003</div><div class="line"></div><div class="line">  Package: com.android.chrome</div><div class="line">  Domains:</div><div class="line">  Status:  always : 200000008</div><div class="line"></div><div class="line">  Package: com.google.android.apps.photos</div><div class="line">  Domains: photos.google.com goo.gl</div><div class="line">  Status:  always : 200000005</div></pre></td></tr></table></figure></p>
+<p>截止2017-06-05这个问题还没有解决。。。</p>
+<p>我的manifest文件如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    package=&quot;cn.myoungs.applinkstest&quot;&gt;</div><div class="line"></div><div class="line">    &lt;application</div><div class="line">        android:allowBackup=&quot;true&quot;</div><div class="line">        android:icon=&quot;@mipmap/ic_launcher&quot;</div><div class="line">        android:label=&quot;@string/app_name&quot;</div><div class="line">        android:roundIcon=&quot;@mipmap/ic_launcher_round&quot;</div><div class="line">        android:supportsRtl=&quot;true&quot;</div><div class="line">        android:theme=&quot;@style/AppTheme&quot;&gt;</div><div class="line">        &lt;meta-data</div><div class="line">            android:name=&quot;asset_statements&quot;</div><div class="line">            android:resource=&quot;@string/asset_statements&quot; /&gt;</div><div class="line">        &lt;activity android:name=&quot;.MainActivity&quot;&gt;</div><div class="line">            &lt;intent-filter android:autoVerify=&quot;true&quot;&gt;</div><div class="line">                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;</div><div class="line"></div><div class="line">                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;</div><div class="line">            &lt;/intent-filter&gt;</div><div class="line">            &lt;intent-filter&gt;</div><div class="line">                &lt;action android:name=&quot;android.intent.action.VIEW&quot; /&gt;</div><div class="line">                &lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;</div><div class="line">                &lt;category android:name=&quot;android.intent.category.BROWSABLE&quot; /&gt;</div><div class="line"></div><div class="line">                &lt;data</div><div class="line">                    android:scheme=&quot;http&quot;</div><div class="line">                    android:host=&quot;myoungs.cn&quot; /&gt;</div><div class="line">                &lt;data</div><div class="line">                    android:scheme=&quot;https&quot;</div><div class="line">                    android:host=&quot;myoungs.cn&quot; /&gt;</div><div class="line">            &lt;/intent-filter&gt;</div><div class="line">        &lt;/activity&gt;</div><div class="line">    &lt;/application&gt;</div><div class="line"></div><div class="line">&lt;/manifest&gt;</div></pre></td></tr></table></figure></p>
+<p>另外的<a href="https://myoungs.cn/.well-known/assetlinks.json" target="_blank" rel="external">配置连接</a><br>在google的<a href="https://developers.google.com/digital-asset-links/tools/generator" target="_blank" rel="external">检查页面</a>也提示正常的</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在尝试配置AppLink的时候遇到打开Applink出现chooser的问题  &lt;/p&gt;
+&lt;p&gt;使用命令行检查&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=
+    
+    </summary>
+    
+      <category term="编程" scheme="http://blog.myoungs.cn/categories/coding/"/>
+    
+    
+      <category term="Android" scheme="http://blog.myoungs.cn/tags/Android/"/>
+    
+      <category term="Applink" scheme="http://blog.myoungs.cn/tags/Applink/"/>
+    
+      <category term="Development" scheme="http://blog.myoungs.cn/tags/Development/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>让 Homebrew 走代理更新</title>
+    <link href="http://blog.myoungs.cn/2017/06/04/brewproxy/"/>
+    <id>http://blog.myoungs.cn/2017/06/04/brewproxy/</id>
+    <published>2017-06-04T13:45:30.000Z</published>
+    <updated>2017-06-12T10:01:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。</p>
+<p>结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。</p>
+<blockquote>
+<p>——如果能让终端命令走代理就好了。</p>
+</blockquote>
+<p>是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew 是支持全局代理的，我们只需要在当前环境当中加入代理配置即可。</p>
+<p>在终端中输入如下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">export ALL_PROXY=socks5://127.0.0.1:1080</div></pre></td></tr></table></figure></p>
+<p>如果说你想要 brew 永久如此，我们就需要将环境变量写入终端的配置当中，这取决于你的终端，如果是默认的 bash，则写入  ~/.bash_profile ，如果是 zsh，则写在  ~/.zshrc  里。</p>
+<p>或者直接用如下语句来将命令直接导入到配置文件里，感谢 surveillance104 的提醒哦！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo export ALL_PROXY=socks5://127.0.0.1:1080 &gt;&gt; ~/.bash_profile</div></pre></td></tr></table></figure></p>
+<p>//如果是zsh就下边这个<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo export ALL_PROXY=socks5://127.0.0.1:1080 &gt;&gt; ~/.zsh_profile</div></pre></td></tr></table></figure></p>
+<p>这样，Homebrew 就能通过 shadowsocks 来更新了，速度嗖嗖的。：）</p>
+<blockquote>
+<p>注意<br>你应当注意，如果你使用了这条命令，可能大部分的终端命令都会使用代理了（ping不会的放心?）如果有些特别的命令总是直接失败，你应当首先想到可能是代理惹的祸；另外，brew不能通过代理来使用中国镜像源——原因你自己想：）</p>
+</blockquote>
+<p>转载自<a href="https://www.logcg.com/archives/1617.html" target="_blank" rel="external">落格博客</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。&lt;/p&gt;
+&lt;p&gt;结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重
+    
+    </summary>
+    
+      <category term="效率" scheme="http://blog.myoungs.cn/categories/tips/"/>
+    
+    
+      <category term="brew" scheme="http://blog.myoungs.cn/tags/brew/"/>
+    
+      <category term="proxy" scheme="http://blog.myoungs.cn/tags/proxy/"/>
+    
+      <category term="OS X" scheme="http://blog.myoungs.cn/tags/OS-X/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20170604</title>
+    <link href="http://blog.myoungs.cn/2017/06/04/20170604post/"/>
+    <id>http://blog.myoungs.cn/2017/06/04/20170604post/</id>
+    <published>2017-06-04T07:15:10.000Z</published>
+    <updated>2017-06-05T02:26:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="20170604"><a href="#20170604" class="headerlink" title="20170604"></a>20170604</h2><p>在经历了一系列诡异的问题之后终于把GitHub Page 改成Hexo了，以后估计会以这个作为主要博客维护，之前Wordpress中的内容找机会再导出成md把。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;20170604&quot;&gt;&lt;a href=&quot;#20170604&quot; class=&quot;headerlink&quot; title=&quot;20170604&quot;&gt;&lt;/a&gt;20170604&lt;/h2&gt;&lt;p&gt;在经历了一系列诡异的问题之后终于把GitHub Page 改成Hexo了，以后估计会以这个作
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://blog.myoungs.cn/2017/06/02/hello-world/"/>
+    <id>http://blog.myoungs.cn/2017/06/02/hello-world/</id>
+    <published>2017-06-02T10:26:47.000Z</published>
+    <updated>2017-06-02T10:26:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hey budy</title>
+    <link href="http://blog.myoungs.cn/2014/09/11/Hey-budy/"/>
+    <id>http://blog.myoungs.cn/2014/09/11/Hey-budy/</id>
+    <published>2014-09-11T01:59:01.000Z</published>
+    <updated>2017-06-12T09:55:12.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="生活" scheme="http://blog.myoungs.cn/categories/life/"/>
+    
+    
+  </entry>
+  
+</feed>
