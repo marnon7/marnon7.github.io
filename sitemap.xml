@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
+    
+    <lastmod>2017-06-13T10:31:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.myoungs.cn/2017/06/05/Android-Applink/</loc>
     
     <lastmod>2017-06-13T10:29:10.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://blog.myoungs.cn/2017/06/05/linearlayoutweightSum/</loc>
     
     <lastmod>2017-06-13T10:28:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.myoungs.cn/2017/06/04/brewproxy/</loc>
-    
-    <lastmod>2017-06-12T10:01:05.000Z</lastmod>
     
   </url>
   
