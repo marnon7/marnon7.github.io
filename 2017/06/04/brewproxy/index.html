@@ -102,7 +102,8 @@
 <meta property="og:url" content="http://blog.myoungs.cn/2017/06/04/brewproxy/index.html">
 <meta property="og:site_name" content="mYoungs&#39; Blog">
 <meta property="og:description" content="之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。 结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。  ——如果能让终端命令走代理就好了。  是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew">
-<meta property="og:updated_time" content="2017-06-13T10:34:19.000Z">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-28T10:25:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="让 Homebrew 走代理更新">
 <meta name="twitter:description" content="之前我们说过，由于国内网络进一步恶劣，使用 brew 也要更换国内大学的镜像源，但是这样的方法治标不治本，更新是快了，可是下载还是一样。 结果就是导致大部分的更新都需要去下载源码然后本地编译，运气差一点的干脆源码也下载不下来，每次都要取消然后重试，不停地手工重复。  ——如果能让终端命令走代理就好了。  是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew">
@@ -390,7 +391,7 @@
 <p>——如果能让终端命令走代理就好了。</p>
 </blockquote>
 <p>是的，你可能想到了什么比如 proxychains-ng 这类的软件，其实不用，因为 brew 是支持全局代理的，我们只需要在当前环境当中加入代理配置即可。</p>
-<p>在终端中输入如下代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> ALL_PROXY=socks5://127.0.0.1:1080</div></pre></td></tr></table></figure></p>
+<p>在终端中输入如下代码：<a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> ALL_PROXY=socks5://127.0.0.1:1080</div></pre></td></tr></table></figure></p>
 <p>如果说你想要 brew 永久如此，我们就需要将环境变量写入终端的配置当中，这取决于你的终端，如果是默认的 bash，则写入  ~/.bash_profile ，如果是 zsh，则写在  ~/.zshrc  里。</p>
 <p>或者直接用如下语句来将命令直接导入到配置文件里，感谢 surveillance104 的提醒哦！<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="built_in">export</span> ALL_PROXY=socks5://127.0.0.1:1080 &gt;&gt; ~/.bash_profile</div></pre></td></tr></table></figure></p>
 <p>//如果是zsh就下边这个<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="built_in">export</span> ALL_PROXY=socks5://127.0.0.1:1080 &gt;&gt; ~/.zsh_profile</div></pre></td></tr></table></figure></p>

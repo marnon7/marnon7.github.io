@@ -95,17 +95,18 @@
 
 
 
-<meta name="description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()  例如，通过BluetoothA">
+<meta name="description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()">
 <meta name="keywords" content="Android,Android M,Wi-Fi,Bluetooth,AndroidManifest,dangerous permission,WifiManager.getScanResults()">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android 6.0之后 WIFI和蓝牙扫描问题">
 <meta property="og:url" content="http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/index.html">
 <meta property="og:site_name" content="mYoungs&#39; Blog">
-<meta property="og:description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()  例如，通过BluetoothA">
-<meta property="og:updated_time" content="2017-06-12T09:59:24.000Z">
+<meta property="og:description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-28T10:25:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android 6.0之后 WIFI和蓝牙扫描问题">
-<meta name="twitter:description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()  例如，通过BluetoothA">
+<meta name="twitter:description" content="Android 6.0增加了对附近设备扫描的权限限制，如下三个API在调用前都需要先获取ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限。  WifiManager.getScanResults() BluetoothDevice.ACTION_FOUND BluetoothLeScanner.startScan()">
 
 
 
@@ -388,9 +389,9 @@
 <ol>
 <li>WifiManager.getScanResults()</li>
 <li>BluetoothDevice.ACTION_FOUND</li>
-<li>BluetoothLeScanner.startScan()</li>
+<li>BluetoothLeScanner.startScan()<a id="more"></a>
+例如，通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备，在Android 6.0之前只需要在AndroidManifest中声明BLUETOOTH和BLUETOOTH_ADMIN权限即可，从Android 6.0之后还需要在AndroidManifest中声明ACCESS_FINE_LOCATION 或者ACCESS_COARSE_LOCATION权限。由于这两个权限属于dangerous permission，所以还需要在运行时申请该权限，等用户授权后才可以通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备。如果没有在AndroidManifest中声明ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限，或者没有得到用户授权就调用BluetoothAdapter.startDiscovery()，那么定义的BroadcastReceiver在Android 6.0系统上中是不会收到任何消息的。</li>
 </ol>
-<p>例如，通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备，在Android 6.0之前只需要在AndroidManifest中声明BLUETOOTH和BLUETOOTH_ADMIN权限即可，从Android 6.0之后还需要在AndroidManifest中声明ACCESS_FINE_LOCATION 或者ACCESS_COARSE_LOCATION权限。由于这两个权限属于dangerous permission，所以还需要在运行时申请该权限，等用户授权后才可以通过BluetoothAdapter.startDiscovery()来搜索附近的蓝牙设备。如果没有在AndroidManifest中声明ACCESS_FINE_LOCATION 或者 ACCESS_COARSE_LOCATION权限，或者没有得到用户授权就调用BluetoothAdapter.startDiscovery()，那么定义的BroadcastReceiver在Android 6.0系统上中是不会收到任何消息的。</p>
 <blockquote>
 <p>参考：<br>1.<a href="https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id" target="_blank" rel="external">https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id</a><br>2.<a href="http://stackoverflow.com/questions/33052811/since-marshmallow-update-bluetooth-discovery-using-bluetoothadapter-getdefaultad" target="_blank" rel="external">http://stackoverflow.com/questions/33052811/since-marshmallow-update-bluetooth-discovery-using-bluetoothadapter-getdefaultad</a></p>
 </blockquote>
