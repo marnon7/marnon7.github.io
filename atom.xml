@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.myoungs.cn/"/>
-  <updated>2019-04-03T13:08:06.861Z</updated>
+  <updated>2019-04-04T03:05:36.282Z</updated>
   <id>http://blog.myoungs.cn/</id>
   
   <author>
@@ -21,18 +21,18 @@
     <link href="http://blog.myoungs.cn/2019/04/03/how-to-install-a-pure-windows-system/"/>
     <id>http://blog.myoungs.cn/2019/04/03/how-to-install-a-pure-windows-system/</id>
     <published>2019-04-03T12:47:02.000Z</published>
-    <updated>2019-04-03T13:08:06.861Z</updated>
+    <updated>2019-04-04T03:05:36.282Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>今天飞回北京的飞机由19点延误到22点，忙了一整天简直要崩溃。<br>到机场的时候好朋友问我怎么装系统，聊了下发现他竟然还在用ghost装，于是花了5分钟整理个教程，多数都是现成的资料。存下备用。</p></blockquote><p>直接上干货:   </p><ol><li>系统镜像 <a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">https://msdn.itellyou.cn/</a></li><li>好用且纯洁的PE <a href="http://www.wepe.com.cn/" target="_blank" rel="noopener">http://www.wepe.com.cn/</a></li><li>WEPE同时提供的装机教程 <a href="http://www.wepe.com.cn/ubook/bootpe.html" target="_blank" rel="noopener">http://www.wepe.com.cn/ubook/bootpe.html</a> </li><li>一个不错的博客，同时提供kms服务 <a href="https://03k.org/" target="_blank" rel="noopener">https://03k.org/</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>今天飞回北京的飞机由19点延误到22点，忙了一整天简直要崩溃。<br>到机场的时候好朋友问我怎么装系统，聊了下发现他竟然还在用ghost装，于是花了5分钟整理个索引，多数都是现成的资料。<br>存下备用。</p></blockquote><p>直接上干货:  </p><ol><li>系统镜像 <a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">https://msdn.itellyou.cn/</a></li><li>好用且纯洁的PE <a href="http://www.wepe.com.cn/" target="_blank" rel="noopener">http://www.wepe.com.cn/</a></li><li>WEPE同时提供的装机教程 <a href="http://www.wepe.com.cn/ubook/bootpe.html" target="_blank" rel="noopener">http://www.wepe.com.cn/ubook/bootpe.html</a> </li><li>一个不错的博客，同时提供kms服务 <a href="https://03k.org/" target="_blank" rel="noopener">https://03k.org/</a></li></ol>]]></content>
     
     <summary type="html">
     
       
       
         &lt;blockquote&gt;
-&lt;p&gt;今天飞回北京的飞机由19点延误到22点，忙了一整天简直要崩溃。&lt;br&gt;到机场的时候好朋友问我怎么装系统，聊了下发现他竟然还在用ghost装，于是花了5分钟整理个教程，多数都是现成的资料。存下备用。&lt;/p&gt;
+&lt;p&gt;今天飞回北京的飞机由19点延误到22点，忙了一整天简直要崩溃。&lt;br&gt;到机场的时候好朋友问我怎么装系统，聊了下发现他竟然还在用ghost装，于是花了5分钟整理个索引，多数都是现成的资料。&lt;br&gt;存下备用。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;直接上干
+&lt;p&gt;
       
     
     </summary>
@@ -90,27 +90,6 @@
     
     
       <category term="编程" scheme="http://blog.myoungs.cn/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://blog.myoungs.cn/2017/06/13/hello-world/"/>
-    <id>http://blog.myoungs.cn/2017/06/13/hello-world/</id>
-    <published>2017-06-13T10:28:25.000Z</published>
-    <updated>2017-06-13T10:28:25.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -259,22 +238,6 @@
       
     
     </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hey budy</title>
-    <link href="http://blog.myoungs.cn/2014/09/11/Hey-budy/"/>
-    <id>http://blog.myoungs.cn/2014/09/11/Hey-budy/</id>
-    <published>2014-09-11T01:59:01.000Z</published>
-    <updated>2017-06-12T09:55:12.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="生活" scheme="http://blog.myoungs.cn/categories/life/"/>
     
     
   </entry>
