@@ -5,9 +5,9 @@
   <subtitle>I love, therefore I am.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.myoungs.cn/"/>
-  <updated>2019-08-23T07:06:55.517Z</updated>
-  <id>http://blog.myoungs.cn/</id>
+  <link href="http://www.myoungs.com/"/>
+  <updated>2019-08-28T04:44:27.496Z</updated>
+  <id>http://www.myoungs.com/</id>
   
   <author>
     <name>Marnon Young</name>
@@ -17,9 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Netlify导入SSL证书</title>
+    <link href="http://www.myoungs.com/2019/08/28/netlify-custom-certificate/"/>
+    <id>http://www.myoungs.com/2019/08/28/netlify-custom-certificate/</id>
+    <published>2019-08-28T03:43:39.000Z</published>
+    <updated>2019-08-28T04:44:27.496Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近使用Netlify镜像了GitHub page，关联仓库之后可以自动同步发布，相对于coding更加方便，可以轻松绑定域名，还有免费的SSL证书。当然，这个经常被报警的 <code>Let&#39;s Encrypt</code> 还是差点意思，好在也支持导入其他ssl证书。</p><a id="more"></a><p>由于我用的是 <code>Comodo</code> 的证书，所以要简单处理下：<br><img src="/2019/08/28/netlify-custom-certificate/netlify_install_cus_cer.png" title="要填写的内容"></p><p>Comodo 会生成以下4个证书文件：</p><ul><li>AddTrustExternalCARoot.crt</li><li>SectigoRSADomainValidationSecureServerCA.crt</li><li>your_domain.crt</li><li>USERTrustRSAAddTrustCA.crt</li></ul><p>第一栏 <code>Certificate</code> 填写 <code>your_domain.crt</code>的内容，一般来说是这样的：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">-----BEGIN CERTIFICATE-----</span><br><span class="line">MIIFSjCCBDKgA</span><br><span class="line">吧啦啦吧类似的东西</span><br><span class="line">MIIFSjCCBDKgA</span><br><span class="line">-----END CERTIFICATE-----</span><br></pre></td></tr></table></figure><p>第二栏 <code>Private key</code></p><p>使用在申请证书的时候，使用的私钥</p><ul><li>your_domain.key</li></ul><p>一般是这样的（手动微笑）：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">-----BEGIN PRIVATE KEY-----</span><br><span class="line">MIIFSjCCBDKgA</span><br><span class="line">吧啦啦吧类似的东西</span><br><span class="line">MIIFSjCCBDKgA</span><br><span class="line">-----END PRIVATE KEY-----</span><br></pre></td></tr></table></figure><p>第三栏 <code>Intermediate certs</code></p><p>在证书路径下执行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat SectigoRSADomainValidationSecureServerCA.crt USERTrustRSAAddTrustCA.crt AddTrustExternalCARoot.crt</span><br></pre></td></tr></table></figure></p><p>填入回显内容就ok啦。<br>End</p><p>P.S.<br>刚刚在插入图片的时候发现了hexo3插入图片的好方法，不再需要安装插件，修改配置文件：</p><pre><code>_config.ymlpost_asset_folder: true</code></pre><p>引用一下<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">官方文档</a></p><blockquote><p>当资源文件管理功能打开后，Hexo将会在你每一次通过 hexo new [layout] &lt;title> 命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p></blockquote><p>具体的调用方法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img 图片名.png 图片描述 %&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近使用Netlify镜像了GitHub page，关联仓库之后可以自动同步发布，相对于coding更加方便，可以轻松绑定域名，还有免费的SSL证书。当然，这个经常被报警的 &lt;code&gt;Let&amp;#39;s Encrypt&lt;/code&gt; 还是差点意思，好在也支持导入其他ssl证书。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Netlify" scheme="http://www.myoungs.com/tags/Netlify/"/>
+    
+      <category term="SSL" scheme="http://www.myoungs.com/tags/SSL/"/>
+    
+      <category term="Comodo" scheme="http://www.myoungs.com/tags/Comodo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>LoungeKey-USA-美国贵宾室列表-20190823</title>
-    <link href="http://blog.myoungs.cn/2019/08/23/LoungeKey-USA-loungelist-20190823/"/>
-    <id>http://blog.myoungs.cn/2019/08/23/LoungeKey-USA-loungelist-20190823/</id>
+    <link href="http://www.myoungs.com/2019/08/23/LoungeKey-USA-loungelist-20190823/"/>
+    <id>http://www.myoungs.com/2019/08/23/LoungeKey-USA-loungelist-20190823/</id>
     <published>2019-08-23T07:02:26.000Z</published>
     <updated>2019-08-23T07:06:55.517Z</updated>
     
@@ -37,8 +61,8 @@
   
   <entry>
     <title>LoungeKey-缅甸贵宾厅列表-20190823</title>
-    <link href="http://blog.myoungs.cn/2019/08/23/LoungeKey-MMR-loungelist-20190823/"/>
-    <id>http://blog.myoungs.cn/2019/08/23/LoungeKey-MMR-loungelist-20190823/</id>
+    <link href="http://www.myoungs.com/2019/08/23/LoungeKey-MMR-loungelist-20190823/"/>
+    <id>http://www.myoungs.com/2019/08/23/LoungeKey-MMR-loungelist-20190823/</id>
     <published>2019-08-23T06:47:32.000Z</published>
     <updated>2019-08-23T06:52:26.486Z</updated>
     
@@ -55,8 +79,8 @@
   
   <entry>
     <title>LoungeKey中国各城市贵宾厅列表 20190821</title>
-    <link href="http://blog.myoungs.cn/2019/08/22/LoungeKey-CHN-loungelist-20190821/"/>
-    <id>http://blog.myoungs.cn/2019/08/22/LoungeKey-CHN-loungelist-20190821/</id>
+    <link href="http://www.myoungs.com/2019/08/22/LoungeKey-CHN-loungelist-20190821/"/>
+    <id>http://www.myoungs.com/2019/08/22/LoungeKey-CHN-loungelist-20190821/</id>
     <published>2019-08-22T06:32:26.000Z</published>
     <updated>2019-08-22T07:09:48.548Z</updated>
     
@@ -73,8 +97,8 @@
   
   <entry>
     <title>怎样安装一个纯净的windows系统</title>
-    <link href="http://blog.myoungs.cn/2019/04/03/how-to-install-a-pure-windows-system/"/>
-    <id>http://blog.myoungs.cn/2019/04/03/how-to-install-a-pure-windows-system/</id>
+    <link href="http://www.myoungs.com/2019/04/03/how-to-install-a-pure-windows-system/"/>
+    <id>http://www.myoungs.com/2019/04/03/how-to-install-a-pure-windows-system/</id>
     <published>2019-04-03T12:47:02.000Z</published>
     <updated>2019-04-04T03:05:36.282Z</updated>
     
@@ -97,8 +121,8 @@
   
   <entry>
     <title>凯文·凯利《必然》</title>
-    <link href="http://blog.myoungs.cn/2017/07/07/the-inevitable/"/>
-    <id>http://blog.myoungs.cn/2017/07/07/the-inevitable/</id>
+    <link href="http://www.myoungs.com/2017/07/07/the-inevitable/"/>
+    <id>http://www.myoungs.com/2017/07/07/the-inevitable/</id>
     <published>2017-07-07T12:15:46.000Z</published>
     <updated>2017-07-07T12:21:13.000Z</updated>
     
@@ -119,10 +143,10 @@
   
   <entry>
     <title>MiUI短信广播被拦截</title>
-    <link href="http://blog.myoungs.cn/2017/06/24/miui-sms-broadcast/"/>
-    <id>http://blog.myoungs.cn/2017/06/24/miui-sms-broadcast/</id>
+    <link href="http://www.myoungs.com/2017/06/24/miui-sms-broadcast/"/>
+    <id>http://www.myoungs.com/2017/06/24/miui-sms-broadcast/</id>
     <published>2017-06-24T07:28:43.000Z</published>
-    <updated>2017-06-24T10:37:37.000Z</updated>
+    <updated>2019-08-28T04:45:56.189Z</updated>
     
     <content type="html"><![CDATA[<p>因为入夏不想带两个手机出门，而两个手机号又不得不接受不同的各种各样的验证码和电话，电话呼叫转移就好了，短信就成为我带手机出门的最大问题。所以就写了一个获取短信广播转发短信的小程序。在原生系统上完全没有问题，但是在一部老旧小米2s上却出现了无法获取广播的情况，突然想到曾经在大学的时候开发程序的时候遇到的系统拦截广播的事情，于是在<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```xml</span><br><span class="line">android.provider.Telephony.SMS_RECEIVED</span><br></pre></td></tr></table></figure></p><p>当然，最好的办法应该是检测短信数据库的变化情况，这样各种奇葩国内系统的拦截都没有用了，具体方法大家自行百度吧</p>]]></content>
     
@@ -135,23 +159,23 @@
     
     </summary>
     
-      <category term="Android" scheme="http://blog.myoungs.cn/categories/Android/"/>
-    
-      <category term="MiUI" scheme="http://blog.myoungs.cn/categories/Android/MiUI/"/>
-    
-      <category term="SMS" scheme="http://blog.myoungs.cn/categories/Android/MiUI/SMS/"/>
-    
-      <category term="broadcast" scheme="http://blog.myoungs.cn/categories/Android/MiUI/SMS/broadcast/"/>
+      <category term="编程" scheme="http://www.myoungs.com/categories/coding/"/>
     
     
-      <category term="编程" scheme="http://blog.myoungs.cn/tags/%E7%BC%96%E7%A8%8B/"/>
+      <category term="Android" scheme="http://www.myoungs.com/tags/Android/"/>
+    
+      <category term="MiUI" scheme="http://www.myoungs.com/tags/MiUI/"/>
+    
+      <category term="SMS" scheme="http://www.myoungs.com/tags/SMS/"/>
+    
+      <category term="broadcast" scheme="http://www.myoungs.com/tags/broadcast/"/>
     
   </entry>
   
   <entry>
     <title>Android 6.0之后 WIFI和蓝牙扫描问题</title>
-    <link href="http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/"/>
-    <id>http://blog.myoungs.cn/2017/06/12/wifi-permission-Android-m/</id>
+    <link href="http://www.myoungs.com/2017/06/12/wifi-permission-Android-m/"/>
+    <id>http://www.myoungs.com/2017/06/12/wifi-permission-Android-m/</id>
     <published>2017-06-12T09:49:56.000Z</published>
     <updated>2017-08-28T10:25:20.000Z</updated>
     
@@ -167,29 +191,29 @@
     
     </summary>
     
-      <category term="编程" scheme="http://blog.myoungs.cn/categories/coding/"/>
+      <category term="编程" scheme="http://www.myoungs.com/categories/coding/"/>
     
     
-      <category term="Android" scheme="http://blog.myoungs.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.myoungs.com/tags/Android/"/>
     
-      <category term="Android M" scheme="http://blog.myoungs.cn/tags/Android-M/"/>
+      <category term="Android M" scheme="http://www.myoungs.com/tags/Android-M/"/>
     
-      <category term="Wi-Fi" scheme="http://blog.myoungs.cn/tags/Wi-Fi/"/>
+      <category term="Wi-Fi" scheme="http://www.myoungs.com/tags/Wi-Fi/"/>
     
-      <category term="Bluetooth" scheme="http://blog.myoungs.cn/tags/Bluetooth/"/>
+      <category term="Bluetooth" scheme="http://www.myoungs.com/tags/Bluetooth/"/>
     
-      <category term="AndroidManifest" scheme="http://blog.myoungs.cn/tags/AndroidManifest/"/>
+      <category term="AndroidManifest" scheme="http://www.myoungs.com/tags/AndroidManifest/"/>
     
-      <category term="dangerous permission" scheme="http://blog.myoungs.cn/tags/dangerous-permission/"/>
+      <category term="dangerous permission" scheme="http://www.myoungs.com/tags/dangerous-permission/"/>
     
-      <category term="WifiManager.getScanResults()" scheme="http://blog.myoungs.cn/tags/WifiManager-getScanResults/"/>
+      <category term="WifiManager.getScanResults()" scheme="http://www.myoungs.com/tags/WifiManager-getScanResults/"/>
     
   </entry>
   
   <entry>
     <title>LinearLayout之weightSum</title>
-    <link href="http://blog.myoungs.cn/2017/06/05/linearlayoutweightSum/"/>
-    <id>http://blog.myoungs.cn/2017/06/05/linearlayoutweightSum/</id>
+    <link href="http://www.myoungs.com/2017/06/05/linearlayoutweightSum/"/>
+    <id>http://www.myoungs.com/2017/06/05/linearlayoutweightSum/</id>
     <published>2017-06-05T10:44:17.000Z</published>
     <updated>2017-06-13T10:28:13.000Z</updated>
     
@@ -204,23 +228,23 @@
     
     </summary>
     
-      <category term="编程" scheme="http://blog.myoungs.cn/categories/coding/"/>
+      <category term="编程" scheme="http://www.myoungs.com/categories/coding/"/>
     
     
-      <category term="Android" scheme="http://blog.myoungs.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.myoungs.com/tags/Android/"/>
     
-      <category term="LinearLayout" scheme="http://blog.myoungs.cn/tags/LinearLayout/"/>
+      <category term="LinearLayout" scheme="http://www.myoungs.com/tags/LinearLayout/"/>
     
-      <category term="weightSum" scheme="http://blog.myoungs.cn/tags/weightSum/"/>
+      <category term="weightSum" scheme="http://www.myoungs.com/tags/weightSum/"/>
     
-      <category term="Layout" scheme="http://blog.myoungs.cn/tags/Layout/"/>
+      <category term="Layout" scheme="http://www.myoungs.com/tags/Layout/"/>
     
   </entry>
   
   <entry>
     <title>Android 6.0 Applink配置问题</title>
-    <link href="http://blog.myoungs.cn/2017/06/05/Android-Applink/"/>
-    <id>http://blog.myoungs.cn/2017/06/05/Android-Applink/</id>
+    <link href="http://www.myoungs.com/2017/06/05/Android-Applink/"/>
+    <id>http://www.myoungs.com/2017/06/05/Android-Applink/</id>
     <published>2017-06-05T01:26:06.000Z</published>
     <updated>2017-08-28T10:24:32.000Z</updated>
     
@@ -233,21 +257,21 @@
     
     </summary>
     
-      <category term="编程" scheme="http://blog.myoungs.cn/categories/coding/"/>
+      <category term="编程" scheme="http://www.myoungs.com/categories/coding/"/>
     
     
-      <category term="Android" scheme="http://blog.myoungs.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.myoungs.com/tags/Android/"/>
     
-      <category term="Applink" scheme="http://blog.myoungs.cn/tags/Applink/"/>
+      <category term="Applink" scheme="http://www.myoungs.com/tags/Applink/"/>
     
-      <category term="Development" scheme="http://blog.myoungs.cn/tags/Development/"/>
+      <category term="Development" scheme="http://www.myoungs.com/tags/Development/"/>
     
   </entry>
   
   <entry>
     <title>让 Homebrew 走代理更新</title>
-    <link href="http://blog.myoungs.cn/2017/06/04/brewproxy/"/>
-    <id>http://blog.myoungs.cn/2017/06/04/brewproxy/</id>
+    <link href="http://www.myoungs.com/2017/06/04/brewproxy/"/>
+    <id>http://www.myoungs.com/2017/06/04/brewproxy/</id>
     <published>2017-06-04T13:45:30.000Z</published>
     <updated>2017-08-28T10:25:04.000Z</updated>
     
@@ -265,21 +289,21 @@
     
     </summary>
     
-      <category term="效率" scheme="http://blog.myoungs.cn/categories/tips/"/>
+      <category term="效率" scheme="http://www.myoungs.com/categories/tips/"/>
     
     
-      <category term="brew" scheme="http://blog.myoungs.cn/tags/brew/"/>
+      <category term="brew" scheme="http://www.myoungs.com/tags/brew/"/>
     
-      <category term="proxy" scheme="http://blog.myoungs.cn/tags/proxy/"/>
+      <category term="proxy" scheme="http://www.myoungs.com/tags/proxy/"/>
     
-      <category term="OS X" scheme="http://blog.myoungs.cn/tags/OS-X/"/>
+      <category term="OS X" scheme="http://www.myoungs.com/tags/OS-X/"/>
     
   </entry>
   
   <entry>
     <title>20170604</title>
-    <link href="http://blog.myoungs.cn/2017/06/04/20170604post/"/>
-    <id>http://blog.myoungs.cn/2017/06/04/20170604post/</id>
+    <link href="http://www.myoungs.com/2017/06/04/20170604post/"/>
+    <id>http://www.myoungs.com/2017/06/04/20170604post/</id>
     <published>2017-06-04T07:15:10.000Z</published>
     <updated>2017-06-05T02:26:11.000Z</updated>
     
