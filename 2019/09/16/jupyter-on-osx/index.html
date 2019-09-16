@@ -103,7 +103,7 @@
 <meta property="og:site_name" content="mYoungs&#39; Blog">
 <meta property="og:description" content="在本机安装jupyter时遇到了一些问题，在pip3 install jupyter之后，会报warning 且 which jupyter之后找不到程序。warning 如下 123The script pygmentize is installed in &amp;apos;/Users/xuser/Library/Python/3.7/bin&amp;apos; which is not on PATH.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-16T08:00:50.998Z">
+<meta property="og:updated_time" content="2019-09-16T08:05:57.495Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="OS X上安装jupyter">
 <meta name="twitter:description" content="在本机安装jupyter时遇到了一些问题，在pip3 install jupyter之后，会报warning 且 which jupyter之后找不到程序。warning 如下 123The script pygmentize is installed in &amp;apos;/Users/xuser/Library/Python/3.7/bin&amp;apos; which is not on PATH.">
@@ -365,6 +365,7 @@
         <p>在本机安装jupyter时遇到了一些问题，在<code>pip3 install jupyter</code>之后，会报warning 且 <code>which jupyter</code>之后找不到程序。<br>warning 如下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">The script pygmentize is installed in &apos;/Users/xuser/Library/Python/3.7/bin&apos; which is not on PATH. </span><br><span class="line">Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.</span><br><span class="line">The scripts jupyter, jupyter-migrate and jupyter-troubleshoot are installed in &apos;/Users/xuser/Library/Python/3.7/bin&apos; which is not on PATH.</span><br></pre></td></tr></table></figure>
 <p>show 一下一脸蒙蔽的状态，难道我要配一下path？ wait 好像不是那么回事儿啊。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ which jupyter3</span><br><span class="line">jupyter3 not found</span><br><span class="line">➜  ~ pip3 show jupyter                   </span><br><span class="line">Name: jupyter</span><br><span class="line">Version: 1.0.0</span><br><span class="line">Summary: Jupyter metapackage. Install all the Jupyter components in one go.</span><br><span class="line">Home-page: http://jupyter.org</span><br><span class="line">Author: Jupyter Development Team</span><br><span class="line">Author-email: jupyter@googlegroups.org</span><br><span class="line">License: BSD</span><br><span class="line">Location: /Users/xuser/Library/Python/3.7/lib/python/site-packages</span><br><span class="line">Requires: qtconsole, ipywidgets, nbconvert, ipykernel, jupyter-console, notebook</span><br><span class="line">Required-by:</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
 <p>经过一阵股沟，最后发现了一个方法</p>
 <ul>
 <li>先用homebrew 卸载 python3并且重新安装，然后使用命令 <code>sudo -H pip install jupyter</code> 安装jupyter</li>
