@@ -95,18 +95,18 @@
 
 
 
-<meta name="description" content="最近需要处理一个多行文件在本地，由于文件较大无法直接编辑，需要在首行插入一行数据。这样的需求首先想到的是sed命令： 1sed -i &amp;apos;1i\new line01&amp;apos; sedtest 无情地报错  sed: 1: “1i\new line01”: extra characters after \ at the end of i command  man 了一下看到有个备份参数 于">
+<meta name="description" content="最近需要处理一个多行文件在本地，由于文件较大无法直接编辑，需要在首行插入一行数据。这样的需求首先想到的是sed命令： 1sed -i &amp;apos;1i\new line01&amp;apos; sedtest 无情地报错  sed: 1: “sedtest”: unterminated substitute in regular expression  man 了一下看到有个备份参数 于是 1sed -i">
 <meta name="keywords" content="OS X,sed,Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="OS X 上使用sed命令">
 <meta property="og:url" content="http://www.myoungs.com/2019/09/29/sed-of-os-x/index.html">
 <meta property="og:site_name" content="mYoungs&#39; Blog">
-<meta property="og:description" content="最近需要处理一个多行文件在本地，由于文件较大无法直接编辑，需要在首行插入一行数据。这样的需求首先想到的是sed命令： 1sed -i &amp;apos;1i\new line01&amp;apos; sedtest 无情地报错  sed: 1: “1i\new line01”: extra characters after \ at the end of i command  man 了一下看到有个备份参数 于">
+<meta property="og:description" content="最近需要处理一个多行文件在本地，由于文件较大无法直接编辑，需要在首行插入一行数据。这样的需求首先想到的是sed命令： 1sed -i &amp;apos;1i\new line01&amp;apos; sedtest 无情地报错  sed: 1: “sedtest”: unterminated substitute in regular expression  man 了一下看到有个备份参数 于是 1sed -i">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-29T06:01:26.018Z">
+<meta property="og:updated_time" content="2019-09-29T06:10:04.202Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="OS X 上使用sed命令">
-<meta name="twitter:description" content="最近需要处理一个多行文件在本地，由于文件较大无法直接编辑，需要在首行插入一行数据。这样的需求首先想到的是sed命令： 1sed -i &amp;apos;1i\new line01&amp;apos; sedtest 无情地报错  sed: 1: “1i\new line01”: extra characters after \ at the end of i command  man 了一下看到有个备份参数 于">
+<meta name="twitter:description" content="最近需要处理一个多行文件在本地，由于文件较大无法直接编辑，需要在首行插入一行数据。这样的需求首先想到的是sed命令： 1sed -i &amp;apos;1i\new line01&amp;apos; sedtest 无情地报错  sed: 1: “sedtest”: unterminated substitute in regular expression  man 了一下看到有个备份参数 于是 1sed -i">
 
 
 
@@ -388,7 +388,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i &apos;1i\new line01&apos; sedtest</span><br></pre></td></tr></table></figure>
 <p>无情地报错</p>
 <blockquote>
-<p>sed: 1: “1i\new line01”: extra characters after \ at the end of i command</p>
+<p>sed: 1: “sedtest”: unterminated substitute in regular expression</p>
 </blockquote>
 <p>man 了一下看到有个备份参数 于是</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i &apos;&apos; &apos;1i\new line01&apos; sedtest</span><br></pre></td></tr></table></figure>
