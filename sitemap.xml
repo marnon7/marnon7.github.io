@@ -2,16 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.myoungs.com/2019/09/29/sed-of-os-x/</loc>
+    <loc>http://www.myoungs.com/2017/07/07/the-inevitable/</loc>
     
-    <lastmod>2019-09-29T05:42:58.526Z</lastmod>
+    <lastmod>2019-09-29T06:03:15.717Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.myoungs.com/2019/09/16/jupyter-on-osx/</loc>
     
-    <lastmod>2019-09-16T08:05:57.495Z</lastmod>
+    <lastmod>2019-09-29T06:02:48.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/28/netlify-custom-certificate/</loc>
+    
+    <lastmod>2019-09-29T06:02:26.371Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/04/03/how-to-install-a-pure-windows-system/</loc>
+    
+    <lastmod>2019-09-29T06:02:21.110Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/09/29/sed-of-os-x/</loc>
+    
+    <lastmod>2019-09-29T06:01:26.018Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/22/LoungeKey-CHN-loungelist-20190821/</loc>
+    
+    <lastmod>2019-09-29T05:59:54.213Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/23/LoungeKey-MMR-loungelist-20190823/</loc>
+    
+    <lastmod>2019-09-29T05:59:50.597Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/23/LoungeKey-USA-loungelist-20190823/</loc>
+    
+    <lastmod>2019-09-29T05:59:49.387Z</lastmod>
     
   </url>
   
@@ -19,41 +61,6 @@
     <loc>http://www.myoungs.com/2017/06/24/miui-sms-broadcast/</loc>
     
     <lastmod>2019-08-28T04:45:56.189Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2019/08/28/netlify-custom-certificate/</loc>
-    
-    <lastmod>2019-08-28T04:44:27.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2019/08/23/LoungeKey-USA-loungelist-20190823/</loc>
-    
-    <lastmod>2019-08-23T07:06:55.517Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2019/08/23/LoungeKey-MMR-loungelist-20190823/</loc>
-    
-    <lastmod>2019-08-23T06:52:26.486Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2019/08/22/LoungeKey-CHN-loungelist-20190821/</loc>
-    
-    <lastmod>2019-08-22T07:09:48.548Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2019/04/03/how-to-install-a-pure-windows-system/</loc>
-    
-    <lastmod>2019-04-04T03:05:36.282Z</lastmod>
     
   </url>
   
@@ -75,13 +82,6 @@
     <loc>http://www.myoungs.com/2017/06/05/Android-Applink/</loc>
     
     <lastmod>2017-08-28T10:24:32.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2017/07/07/the-inevitable/</loc>
-    
-    <lastmod>2017-07-07T12:21:13.000Z</lastmod>
     
   </url>
   
