@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.myoungs.com/"/>
-  <updated>2020-08-03T10:51:44.436Z</updated>
+  <updated>2020-08-03T11:28:09.749Z</updated>
   <id>http://www.myoungs.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.myoungs.com/2020/08/01/install-jupyter-n-fix-zsh-command-not-found-error/"/>
     <id>http://www.myoungs.com/2020/08/01/install-jupyter-n-fix-zsh-command-not-found-error/</id>
     <published>2020-08-01T02:42:17.000Z</published>
-    <updated>2020-08-03T10:51:44.436Z</updated>
+    <updated>2020-08-03T11:28:09.749Z</updated>
     
     <content type="html"><![CDATA[<p>安装python 和 pip 就不多说了，不会的童鞋，看后面的内容也意义不大，直接进入正题：</p><ol><li><p>安装jupyter</p><blockquote><p>pip install jupyter</p></blockquote></li><li><p>正确的话会提示安装成功</p></li><li><p>启动</p><blockquote><p>jupyter notebook</p></blockquote></li></ol><ul><li><p>然鹅，此时问题出现了:</p><blockquote><p> “zsh: command not found: jupyter”</p></blockquote></li><li><p>不要慌，分析一下：    </p><blockquote><p>pip3 show jupyter</p></blockquote><p>  返回</p>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Name: jupyter</span><br><span class="line">Version: 1.0.0</span><br><span class="line">Summary: Jupyter metapackage. Install all the Jupyter components in one go.</span><br><span class="line">Home-page: http:&#x2F;&#x2F;jupyter.org</span><br><span class="line">Author: Jupyter Development Team</span><br><span class="line">Author-email: jupyter@googlegroups.org</span><br><span class="line">License: BSD</span><br><span class="line">Location: &#x2F;Users&#x2F;******&#x2F;Library&#x2F;Python&#x2F;3.7&#x2F;lib&#x2F;python&#x2F;site-packages</span><br><span class="line">Requires: jupyter-console, notebook, ipywidgets, qtconsole, nbconvert, ipykernel</span><br><span class="line">Required-by:</span><br></pre></td></tr></table></figure></li></ul><p>看上去是傻逼的自带python环境问题，不纠结这个，加个环境变量试试；<br>根据提示：</p><blockquote><p>Location:  /Users/yourusername/Library/Python/3.7/lib/python/site-packages</p></blockquote><p>处理一下成为bin的路径</p><blockquote><p>export PATH=/Users/**/Library/Python/3.7/bin:$PATH</p></blockquote><p>加到zsh的环境变量里</p><blockquote><p>vim .zshrc</p></blockquote><p>source一下生效</p><blockquote><p>source .zshrc</p></blockquote><p>等灯等灯 okk啦</p>]]></content>
     
