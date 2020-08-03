@@ -207,20 +207,6 @@
   </url>
   
   <url>
-    <loc>http://www.myoungs.com/tags/fraud-scenario-analysis/</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/tags/Social-platform/</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.myoungs.com/tags/windows/</loc>
     <lastmod>2020-08-03</lastmod>
     <changefreq>daily</changefreq>
@@ -229,6 +215,20 @@
   
   <url>
     <loc>http://www.myoungs.com/tags/how-to/</loc>
+    <lastmod>2020-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/fraud-scenario-analysis/</loc>
+    <lastmod>2020-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Social-platform/</loc>
     <lastmod>2020-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -284,20 +284,6 @@
   </url>
   
   <url>
-    <loc>http://www.myoungs.com/tags/sed/</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/tags/Linux/</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.myoungs.com/tags/Netlify/</loc>
     <lastmod>2020-08-03</lastmod>
     <changefreq>daily</changefreq>
@@ -313,6 +299,20 @@
   
   <url>
     <loc>http://www.myoungs.com/tags/Comodo/</loc>
+    <lastmod>2020-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/sed/</loc>
+    <lastmod>2020-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Linux/</loc>
     <lastmod>2020-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
