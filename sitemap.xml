@@ -235,13 +235,6 @@
   </url>
   
   <url>
-    <loc>http://www.myoungs.com/tags/jupyter/</loc>
-    <lastmod>2020-08-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.myoungs.com/tags/LinearLayout/</loc>
     <lastmod>2020-08-04</lastmod>
     <changefreq>daily</changefreq>
@@ -263,21 +256,7 @@
   </url>
   
   <url>
-    <loc>http://www.myoungs.com/tags/MiUI/</loc>
-    <lastmod>2020-08-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/tags/SMS/</loc>
-    <lastmod>2020-08-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/tags/broadcast/</loc>
+    <loc>http://www.myoungs.com/tags/jupyter/</loc>
     <lastmod>2020-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -299,6 +278,27 @@
   
   <url>
     <loc>http://www.myoungs.com/tags/Comodo/</loc>
+    <lastmod>2020-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/MiUI/</loc>
+    <lastmod>2020-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/SMS/</loc>
+    <lastmod>2020-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/broadcast/</loc>
     <lastmod>2020-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
