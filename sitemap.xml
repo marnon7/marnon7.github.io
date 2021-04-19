@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.myoungs.com/404.html</loc>
+    <loc>http://www.myoungs.com/2021/04/19/aliyundrive-0419/</loc>
     
-    <lastmod>2020-08-03</lastmod>
+    <lastmod>2021-04-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/28/netlify-custom-certificate/</loc>
+    
+    <lastmod>2020-08-08</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.myoungs.com/2020/08/01/install-jupyter-n-fix-zsh-command-not-found-error/</loc>
+    
+    <lastmod>2020-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/404.html</loc>
     
     <lastmod>2020-08-03</lastmod>
     
@@ -38,13 +52,6 @@
   
   <url>
     <loc>http://www.myoungs.com/2019/09/16/jupyter-on-osx/</loc>
-    
-    <lastmod>2019-09-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.myoungs.com/2019/08/28/netlify-custom-certificate/</loc>
     
     <lastmod>2019-09-29</lastmod>
     
@@ -144,7 +151,7 @@
 
   <url>
     <loc>http://www.myoungs.com/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -152,210 +159,224 @@
   
   <url>
     <loc>http://www.myoungs.com/tags/Android/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Applink/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Development/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Priority-Pass/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/LoungeKey/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/brew/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/proxy/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/OS-X/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/fraud-scenario-analysis/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Social-platform/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/windows/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/how-to/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/jupyter/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/LinearLayout/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/weightSum/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Layout/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/MiUI/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/SMS/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/broadcast/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Netlify/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/SSL/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Comodo/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/sed/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Linux/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Android-M/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Wi-Fi/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/Bluetooth/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/AndroidManifest/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/dangerous-permission/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/tags/WifiManager-getScanResults/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/</loc>
+    <lastmod>2021-04-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/%E7%A6%8F%E5%88%A9%E7%A0%81/</loc>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -364,28 +385,28 @@
   
   <url>
     <loc>http://www.myoungs.com/categories/life/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/categories/coding/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/categories/tips/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.myoungs.com/categories/%E5%95%86%E4%B8%9A/</loc>
-    <lastmod>2020-08-04</lastmod>
+    <lastmod>2021-04-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
