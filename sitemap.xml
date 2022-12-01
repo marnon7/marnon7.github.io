@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.myoungs.com/2020/08/01/install-jupyter-n-fix-zsh-command-not-found-error/</loc>
+    
+    <lastmod>2020-08-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/10/22/fraud-scenario-analysis-social/</loc>
+    
+    <lastmod>2019-10-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/09/29/sed-of-os-x/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/07/07/the-inevitable/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/09/16/jupyter-on-osx/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/28/netlify-custom-certificate/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/04/03/how-to-install-a-pure-windows-system/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/22/LoungeKey-CHN-loungelist-20190821/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/23/LoungeKey-MMR-loungelist-20190823/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2019/08/23/LoungeKey-USA-loungelist-20190823/</loc>
+    
+    <lastmod>2019-09-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/06/24/miui-sms-broadcast/</loc>
+    
+    <lastmod>2019-08-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/06/12/wifi-permission-Android-m/</loc>
+    
+    <lastmod>2017-08-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/06/04/brewproxy/</loc>
+    
+    <lastmod>2017-08-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/06/05/Android-Applink/</loc>
+    
+    <lastmod>2017-08-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/06/05/linearlayoutweightSum/</loc>
+    
+    <lastmod>2017-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/index.html</loc>
+    
+    <lastmod>2017-06-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/categories/index.html</loc>
+    
+    <lastmod>2017-06-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/about/index.html</loc>
+    
+    <lastmod>2017-06-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/2017/06/04/20170604post/</loc>
+    
+    <lastmod>2017-06-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/404.html</loc>
+    
+    <lastmod>2017-06-04</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://www.myoungs.com/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Priority-Pass/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/LoungeKey/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Android/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Applink/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Development/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/fraud-scenario-analysis/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Social-platform/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/windows/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/how-to/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/brew/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/proxy/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/OS-X/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/jupyter/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/MiUI/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/SMS/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/broadcast/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Netlify/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/SSL/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Comodo/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/LinearLayout/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/weightSum/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Layout/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/sed/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Linux/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Android-M/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Wi-Fi/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/Bluetooth/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/AndroidManifest/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/dangerous-permission/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/tags/WifiManager-getScanResults/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://www.myoungs.com/categories/life/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/categories/coding/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/categories/tips/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.myoungs.com/categories/%E5%95%86%E4%B8%9A/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
